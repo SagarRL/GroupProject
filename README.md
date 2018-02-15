@@ -1,6 +1,3 @@
-# Sagar R. Laturkar
-## Subrahmanya V Hegde
-
 import java.util.Scanner;
 class calculator
 {
