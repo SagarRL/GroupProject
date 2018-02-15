@@ -1,3 +1,4 @@
+
 #Sagar R. Laturkar
 import java.util.Scanner;
 class calc
@@ -33,4 +34,3 @@ class calc
 
         }
     }
-}
