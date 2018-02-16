@@ -15,7 +15,17 @@ class calculator
 
     int subtraction()
     {
-        return (a-b);//Subtraction
+        return (a-b);//Substraction
+    }
+
+    int multiplication()
+    {
+        return (a*b);//Multiplication
+    }
+
+    int division()
+    {
+        return (a/b);//Division
     }
 }
 
@@ -33,19 +43,28 @@ class calc
             calculator cal = new calculator(p,r);
 
             int choice;
-            System.out.println("1 - Addition\n2-Subtraction\3-Exit");
+            System.out.println("1 - Addition\n2-Subtraction\3-Multiplication\n4-Division\n5-Exit");
             choice = s.nextInt();
 
             switch(choice)
             {
                 case 1:
-                        cal.addition(p,r);
+                        cal.addition();
                         break;
                 case 2:
-                        cal.subtrction(p,r);
+                        cal.subtrction();
                         break;
                 case 3:
+                        cal.multplication();
+                        break;
+                
+                case 4:
+                        cal.division();
+                        break;
+                
+                case 5:
                         return 0;
+                
                 default:
                         System.out.println("Enter the correct choice");
                         break;
