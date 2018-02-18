@@ -10,22 +10,22 @@ class calculator
 
     int addition()
     {
-        return (a+b);//Addition
+        return (this.a + this.b);//Addition
     }
 
     int subtraction()
     {
-        return (a-b);//Substraction
+        return (this.a - this.b);//Substraction
     }
 
     int multiplication()
     {
-        return (a*b);//Multiplication
+        return (this.a * this.b);//Multiplication
     }
 
     int division()
     {
-        return (a/b);//Division
+        return (this.a / this.b);//Division
     }
 
 }
